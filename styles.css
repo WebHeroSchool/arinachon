@@ -14,6 +14,7 @@ body{
   height: 51px;
   margin-right: 17.8%;
   background: url('img/teslalogo.svg');
+  background-repeat: no-repeat;
 }
 .menu{
   display: flex;
@@ -249,4 +250,297 @@ font: 600 30px/37px 'Montserrat', arial, helvetica, sans-serif;
 }
 .reditem-text-4{
 font: 600 25px/30px 'Montserrat', arial, helvetica, sans-serif;
+}
+@media (max-width: 1439px){
+.header{
+width: 94%;
+margin-bottom: 10.5%;
+}
+.menu__item{
+display: none;
+}
+.menu__btn{
+  right: 33px;
+  width: 35px;
+  height: 22px;
+  top: 38px;
+}
+.menu1{
+  display: none;
+}
+.main{
+height: 900px;
+}
+.main__title{
+margin-left: 26%;
+}
+.main__subtitle{
+margin-left: 34.2%;
+margin-bottom: 12.4%;
+}
+.main__img{
+  background: url('img/wordmark.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.main__img-2{
+  background: url('img/maincar.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 88%;
+  position: relative;
+  bottom: 67%;
+  margin-left: 6%;
+  height: 350px;
+  z-index: 1;
+}
+.main__items{
+margin-left: 16%;
+width: 65%;
+bottom: 64%;
+}
+.main__item{
+margin-left: 1.5%;
+}
+.img-1{
+width: 78px;
+margin-top: 2.5%;
+margin-left: 1%;
+}
+.main__item-box{
+bottom: 226%;
+}
+.box-1{
+margin-left: 37%;
+}
+.main__item-background{
+  background: url('img/roadsmall.svg');
+  background-repeat: no-repeat;
+  width: 46px;
+  height: 73px;
+  margin-left: 2%;
+}
+.main__item-title{
+  font: 600 50px/61px 'Montserrat', arial, helvetica, sans-serif;
+}
+.main__item-span{
+margin-left: 76%;
+}
+.span-1{
+bottom: 68px;
+}
+.text-1{
+bottom: 113px;
+}
+.img-2{
+display: none;
+}
+.box-2{
+width: 68%;
+}
+.title-2{
+margin-left: 4px;
+}
+.span-2{
+bottom: 69px;
+}
+.text-2{
+bottom: 113px;
+}
+.content{
+width: 60%;
+margin-left: 20%;
+align-items: center;
+}
+.content-1{
+bottom: 58%;
+}
+.content__img{
+  display: none;
+}
+.content__background{
+  background: url('img/wheelred.svg');
+  background-repeat: no-repeat;
+  width: 31px;
+  height: 31px;
+  margin-left: 4%;
+  background-size: contain;
+  margin-right: 1.8%;
+}
+.content__more{
+  font: 700 16px/20px 'Montserrat', arial, helvetica, sans-serif;
+}
+.content__button{
+  font: 700 16px/20px 'Montserrat', arial, helvetica, sans-serif;
+  padding: 18px 65px;
+  margin: 0;
+  margin-left: 9%;
+  display: inline-block;
+}
+.button-1{
+color: #fff;
+background: #E51937;
+border: #E51937;
+}
+.main__img1{
+bottom: 51.33%;
+margin-left: 47.8%;
+}
+}
+@media (max-width: 767px){
+.redcontent__background{
+  position: relative;
+  width: 100%;
+}
+.content__button{
+  right: 30px;
+  position: relative;
+}
+.main__title{
+font: 600 50px/61px 'Montserrat', arial, helvetica, sans-serif;
+margin-left:22.6%;
+margin-bottom: 5px;
+}
+.header{
+padding-top: 3px;
+margin-bottom: 6%;
+}
+.logo{
+background-size: 138px 47px;
+}
+.menu__btn{
+right: 21px;
+width: 24px;
+height: 13px;
+top: 20px;
+}
+.main__subtitle{
+font: 500 10px/12px 'Montserrat', arial, helvetica, sans-serif;
+margin-left: 29%;
+line-height: 0;
+margin-bottom: 41px;
+}
+.main__img{
+width: 105%;
+right: 14px;
+bottom: 27px;
+}
+.main__img-2{
+margin-top: 18px;
+width: 92%;
+margin-left: 4%;
+height: 170px;
+margin-bottom: 27px;
+}
+.main__items{
+width: 80%;
+margin-left: 8%;
+bottom: 68%;
+}
+.main__item{
+width: 45%;
+}
+.main__item-img{
+
+}
+.img-1{
+width: 33%;
+margin-top: 10px;
+margin-left: 2%;
+}
+.main__item-box{
+
+}
+.box-1{
+margin-top: 80px;
+margin-left: 44px;
+}
+.main__item-title{
+font: 600 27px/33px 'Montserrat', arial, helvetica, sans-serif;
+}
+.main__item-span{
+font: 600 15px/18px 'Montserrat', arial, helvetica, sans-serif;
+}
+.span-1, .span-2{
+margin-left: 65%;
+bottom: 31px;
+}
+.main__item-text{
+font: 400 10px/12px 'Montserrat', arial, helvetica, sans-serif;
+}
+.text-1, .text-2{
+position: relative;
+bottom: 59px;
+margin-left: 15%;
+}
+.img-2{
+display: none;
+}
+.main__item-background{
+margin: 0;
+background-size: 45px 45px;
+margin-left: 4%;
+}
+.box-2{
+  margin-top: 57px;
+  margin-left: 48px;
+}
+.title-2{
+bottom: 59px;
+}
+.content{
+
+}
+.content-1{
+width: 95%;
+margin-left: 10px;
+bottom: 65.6%;
+}
+.content__img{
+display: none;
+}
+.content__background{
+margin-top: 3.7%;
+margin-right: 0;
+margin-left: 7%;
+background-size: 24px;
+}
+.more-1{
+font: 700 13px/16px 'Montserrat', arial, helvetica, sans-serif;
+margin: 0;
+margin-top: 2%;
+}
+.button-1{
+font: 700 13px/16px 'Montserrat', arial, helvetica, sans-serif;
+padding: 12px 43px;
+right: 2.3%;
+margin-top: 1.3%;
+}
+.main__img1{
+bottom: 62.5%;
+margin-left: 46%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
