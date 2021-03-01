@@ -1,0 +1,546 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+}
+
+.header{
+  display: flex;
+  padding: 24px 17px 0 0;
+  width: 93%;
+  margin: auto;
+}
+.logo{
+  width: 166px;
+  height: 51px;
+  margin-right: 17.8%;
+  background: url('img/teslalogo.svg');
+  background-repeat: no-repeat;
+}
+.menu{
+  display: flex;
+  padding-top: 4px;
+  align-items: center;
+}
+.menu__item{
+ font: 600 15px/18px 'Montserrat', arial, helvetica, sans-serif;
+ color: #000;
+ padding: 0 18.5px;
+ text-decoration: none;
+}
+.menu__item_active{
+  color: #E51937;
+  margin-right: 26px;
+}
+.menu__item_active::after{
+  position: absolute;
+  display: block;
+  content: '';
+  margin-left: 5px;
+  width: 4%;
+  height: 2px;
+  background: #E51937;
+  margin-top: 5px;
+}
+.menu__item:last-child{
+  margin-left: 7px;
+}
+.menu1{
+  display: flex;
+  padding-top: 4px;
+  align-items: center;
+  margin-left: 15.2%;
+}
+.menu1__item{
+  font: 600 15px/18px 'Montserrat', arial, helvetica, sans-serif;
+  color: #000;
+  text-decoration: none;
+  padding-right: 25%;
+}
+.menu__btn {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 42px;
+  right: 60px;
+  width: 24px;
+  height: 15px;
+  cursor: pointer;
+  z-index: 1;
+}
+.menu__btn > span,
+.menu__btn > span::before,
+.menu__btn > span::after {
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #E51937;
+}
+.menu__btn > span::before {
+  content: '';
+  top: -8px;
+}
+.menu__btn > span::after {
+  content: '';
+  top: 8px;
+}
+.menu__box {
+  display: block;
+  position: fixed;
+  visibility: hidden;
+  top: 0;
+  left: -100%;
+  width: 300px;
+  height: 100%;
+  margin: 0;
+  padding: 80px 0;
+  list-style: none;
+  text-align: center;
+  background-color: #ECEFF1;
+  box-shadow: 1px 0px 6px rgba(0, 0, 0, .2);
+}
+.main{
+height: 765px;
+}
+.page1{
+height: 900px;
+}
+.page2{
+height: 900px;
+}
+.main__title{
+  font: 600 90px/110px 'Montserrat', arial, helvetica, sans-serif;
+  margin-top: 4%;
+  margin-left: 37.1%;
+  margin-bottom: 0;
+}
+.main__subtitle{
+  font: 500 15px/18.29px 'Montserrat', arial, helvetica, sans-serif;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-left: 41.7%;
+  line-height: 0px;
+}
+.main__img{
+  background: url('img/logocar.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 600px;
+  position: relative;
+  bottom: 109px;
+}
+.container, .redcontent, .content, .raiting__box, .main__items, .main__item, .redcontent__items, .redcontent__item{
+  border: dashed 1px red;
+}
+
+.main__items{
+display: inline-flex;
+justify-content: space-between;
+position: relative;
+bottom: 80px;
+margin-left: 21.9%;
+width: 27%;
+height: 60px;
+}
+.main__item{
+width: 40%;
+}
+.main__item-box{
+margin-left: 30%;
+position: relative;
+bottom: 155%;
+width: 64%;
+}
+.box-2{
+bottom: 184%;
+}
+.main__item-title{
+font: 600 35px/43px 'Montserrat', arial, helvetica, sans-serif;
+}
+.title-1{
+margin-left: 16%;
+}
+.title-2{
+margin-left: 2%;
+}
+.main__item-span{
+font: 600 20px/24px 'Montserrat', arial, helvetica, sans-serif;
+position: relative;
+bottom: 43px;
+margin-left: 71%;
+}
+.main__item-text{
+font: 400 12px/15px 'Montserrat', arial, helvetica, sans-serif;
+position: relative;
+bottom: 79px;
+}
+.text-1{
+margin-left: 16%;
+}
+.text-2{
+margin-left: 3%;
+}
+.content{
+position: relative;
+width: 25%;
+display: inline-flex;
+align-items: center;
+}
+.content-1{
+margin-left: 55.5%;
+bottom: 141px;
+}
+.more-1{
+
+}
+.button-1{
+margin-left: 11.5%;
+padding: 10px 40px;
+}
+.main__img1{
+  position: relative;
+  margin-left: 48.8%;
+  bottom: 102px;
+}
+.page1__title{
+font: 600 70px/85px 'Montserrat', arial, helvetica, sans-serif;
+}
+.redcontent__title{
+font: 600 30px/36px 'Montserrat', arial, helvetica, sans-serif;
+}
+.redcontent__subtitle{
+font: 500 15px/18px 'Montserrat', arial, helvetica, sans-serif;
+}
+.redcontent__item-title{
+font: 600 35px/43px 'Montserrat', arial, helvetica, sans-serif;
+}
+.redcontent__item-span{
+font: 600 20px/24px 'Montserrat', arial, helvetica, sans-serif;
+}
+.redcontent__item-text{
+font: 400 12px/15px'Montserrat', arial, helvetica, sans-serif;
+}
+.raiting__title{
+font: 600 30px/37px 'Montserrat', arial, helvetica, sans-serif;
+}
+.raiting__text{
+font: 700 17px/21px 'Montserrat', arial, helvetica, sans-serif;
+}
+.raiting__text-span{
+font: 700 10px/12px 'Montserrat', arial, helvetica, sans-serif;
+}
+.content__more{
+font: 700 13px/16px 'Montserrat', arial, helvetica, sans-serif;
+margin-left: 2%;
+}
+.content__button{
+font: 700 13px/16px 'Montserrat', arial, helvetica, sans-serif;
+text-decoration: none;
+color: #E51937;
+border-style: solid;
+}
+.reditem-title-4{
+font: 600 50px/61px 'Montserrat', arial, helvetica, sans-serif;
+}
+.reditem-title-2{
+font: 600 20px/18px 'Montserrat', arial, helvetica, sans-serif;
+}
+.reditem-span-4{
+font: 600 30px/37px 'Montserrat', arial, helvetica, sans-serif;
+}
+.reditem-text-4{
+font: 600 25px/30px 'Montserrat', arial, helvetica, sans-serif;
+}
+@media (max-width: 1439px){
+.header{
+width: 94%;
+margin-bottom: 10.5%;
+}
+.menu__item{
+display: none;
+}
+.menu__btn{
+  right: 33px;
+  width: 35px;
+  height: 22px;
+  top: 38px;
+}
+.menu1{
+  display: none;
+}
+.main{
+height: 900px;
+}
+.main__title{
+margin-left: 26%;
+}
+.main__subtitle{
+margin-left: 34.2%;
+margin-bottom: 12.4%;
+}
+.main__img{
+  background: url('img/wordmark.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.main__img-2{
+  background: url('img/maincar.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 88%;
+  position: relative;
+  bottom: 67%;
+  margin-left: 6%;
+  height: 350px;
+  z-index: 1;
+}
+.main__items{
+margin-left: 16%;
+width: 65%;
+bottom: 64%;
+}
+.main__item{
+margin-left: 1.5%;
+}
+.img-1{
+width: 78px;
+margin-top: 2.5%;
+margin-left: 1%;
+}
+.main__item-box{
+bottom: 226%;
+}
+.box-1{
+margin-left: 37%;
+}
+.main__item-background{
+  background: url('img/roadsmall.svg');
+  background-repeat: no-repeat;
+  width: 46px;
+  height: 73px;
+  margin-left: 2%;
+}
+.main__item-title{
+  font: 600 50px/61px 'Montserrat', arial, helvetica, sans-serif;
+}
+.main__item-span{
+margin-left: 76%;
+}
+.span-1{
+bottom: 68px;
+}
+.text-1{
+bottom: 113px;
+}
+.img-2{
+display: none;
+}
+.box-2{
+width: 68%;
+}
+.title-2{
+margin-left: 4px;
+}
+.span-2{
+bottom: 69px;
+}
+.text-2{
+bottom: 113px;
+}
+.content{
+width: 60%;
+margin-left: 20%;
+align-items: center;
+}
+.content-1{
+bottom: 58%;
+}
+.content__img{
+  display: none;
+}
+.content__background{
+  background: url('img/wheelred.svg');
+  background-repeat: no-repeat;
+  width: 31px;
+  height: 31px;
+  margin-left: 4%;
+  background-size: contain;
+  margin-right: 1.8%;
+}
+.content__more{
+  font: 700 16px/20px 'Montserrat', arial, helvetica, sans-serif;
+}
+.content__button{
+  font: 700 16px/20px 'Montserrat', arial, helvetica, sans-serif;
+  padding: 18px 65px;
+  margin: 0;
+  margin-left: 9%;
+  display: inline-block;
+}
+.button-1{
+color: #fff;
+background: #E51937;
+border: #E51937;
+}
+.main__img1{
+bottom: 51.33%;
+margin-left: 47.8%;
+}
+}
+@media (max-width: 767px){
+.redcontent__background{
+  position: relative;
+  width: 100%;
+}
+.content__button{
+  right: 30px;
+  position: relative;
+}
+.main__title{
+font: 600 50px/61px 'Montserrat', arial, helvetica, sans-serif;
+margin-left:22.6%;
+margin-bottom: 5px;
+}
+.header{
+padding-top: 3px;
+margin-bottom: 6%;
+}
+.logo{
+background-size: 138px 47px;
+}
+.menu__btn{
+right: 21px;
+width: 24px;
+height: 13px;
+top: 20px;
+}
+.main__subtitle{
+font: 500 10px/12px 'Montserrat', arial, helvetica, sans-serif;
+margin-left: 29%;
+line-height: 0;
+margin-bottom: 41px;
+}
+.main__img{
+width: 105%;
+right: 14px;
+bottom: 27px;
+}
+.main__img-2{
+margin-top: 18px;
+width: 92%;
+margin-left: 4%;
+height: 170px;
+margin-bottom: 27px;
+}
+.main__items{
+width: 80%;
+margin-left: 8%;
+bottom: 68%;
+}
+.main__item{
+width: 45%;
+}
+.main__item-img{
+
+}
+.img-1{
+width: 33%;
+margin-top: 10px;
+margin-left: 2%;
+}
+.main__item-box{
+
+}
+.box-1{
+margin-top: 80px;
+margin-left: 44px;
+}
+.main__item-title{
+font: 600 27px/33px 'Montserrat', arial, helvetica, sans-serif;
+}
+.main__item-span{
+font: 600 15px/18px 'Montserrat', arial, helvetica, sans-serif;
+}
+.span-1, .span-2{
+margin-left: 65%;
+bottom: 31px;
+}
+.main__item-text{
+font: 400 10px/12px 'Montserrat', arial, helvetica, sans-serif;
+}
+.text-1, .text-2{
+position: relative;
+bottom: 59px;
+margin-left: 15%;
+}
+.img-2{
+display: none;
+}
+.main__item-background{
+margin: 0;
+background-size: 45px 45px;
+margin-left: 4%;
+}
+.box-2{
+  margin-top: 57px;
+  margin-left: 48px;
+}
+.title-2{
+bottom: 59px;
+}
+.content{
+
+}
+.content-1{
+width: 95%;
+margin-left: 10px;
+bottom: 65.6%;
+}
+.content__img{
+display: none;
+}
+.content__background{
+margin-top: 3.7%;
+margin-right: 0;
+margin-left: 7%;
+background-size: 24px;
+}
+.more-1{
+font: 700 13px/16px 'Montserrat', arial, helvetica, sans-serif;
+margin: 0;
+margin-top: 2%;
+}
+.button-1{
+font: 700 13px/16px 'Montserrat', arial, helvetica, sans-serif;
+padding: 12px 43px;
+right: 2.3%;
+margin-top: 1.3%;
+}
+.main__img1{
+bottom: 62.5%;
+margin-left: 46%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
