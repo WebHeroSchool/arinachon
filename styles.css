@@ -190,9 +190,6 @@ align-items: center;
 margin-left: 55.5%;
 bottom: 141px;
 }
-.more-1{
-
-}
 .button-1{
 margin-left: 11.5%;
 padding: 10px 40px;
@@ -204,12 +201,29 @@ padding: 10px 40px;
 }
 .page1__title{
 font: 600 70px/85px 'Montserrat', arial, helvetica, sans-serif;
+margin: 0;
+width: 20%;
+margin-top: 4.6%;
+margin-left: 5.5%;
+}
+.page1__background{
+  background: url('img/models.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: relative;
+  margin-top: 4%;
+  width: 1548px;
+  height: 844px;
 }
 .redcontent__title{
 font: 600 30px/36px 'Montserrat', arial, helvetica, sans-serif;
+margin: 0;
+width: 25%;
 }
 .redcontent__subtitle{
 font: 500 15px/18px 'Montserrat', arial, helvetica, sans-serif;
+margin: 0;
+width: 22%;
 }
 .redcontent__item-title{
 font: 600 35px/43px 'Montserrat', arial, helvetica, sans-serif;
@@ -250,6 +264,112 @@ font: 600 30px/37px 'Montserrat', arial, helvetica, sans-serif;
 }
 .reditem-text-4{
 font: 600 25px/30px 'Montserrat', arial, helvetica, sans-serif;
+}
+.redcontent{
+
+}
+.redcontent-1{
+
+}
+.redcontent__background{
+  background: url('img/red.svg');
+  background-repeat: no-repeat;
+  margin: 0;
+  position: relative;
+  width: 100%;
+  height: 900px;
+}
+.red-1{
+bottom: 151px;
+margin-left: 69.5%;
+}
+.red-2{
+
+}
+.redtitle-1{
+
+}
+.redsubtitle-2{
+
+}
+.redcontent__items{
+display: block;
+position: relative;
+}
+.reditems-1{
+width: 20%;
+}
+.redcontent__item-box{
+
+}
+.reditem-box-1{
+
+}
+.redcontent__item-title{
+
+}
+.reditem-span-1{
+
+}
+.reditem-text-1{
+
+}
+.redcontent__item{
+
+}
+.redcontent__item-img{
+
+}
+.redcontent__item-box{
+
+}
+.reditem-box-2{
+
+}
+.redcontent__item-title{
+
+}
+.reditem-title-2{
+
+}
+.redcontent__item-text{
+
+}
+.reditem-text-2{
+
+}
+.img-3{
+
+}
+.img-4{
+
+}
+.reditem-box-3{
+
+}
+.reditem-title-3{
+
+}
+.redcontent__item-span{
+
+}
+.reditem-span-3{
+
+}
+.reditem-text-3{
+
+}
+.content-2{
+
+}
+.img-more{
+
+}
+.more-2{
+
+}
+.button-2{
+
 }
 @media (max-width: 1439px){
 .header{
@@ -386,6 +506,103 @@ border: #E51937;
 bottom: 51.33%;
 margin-left: 47.8%;
 }
+.page1__background{
+
+
+}
+.redcontent{
+
+}
+.redcontent-1{
+
+}
+.redcontent__background{
+
+}
+.redtitle-1{
+
+}
+.redsubtitle-2{
+
+}
+.redcontent__items{
+
+}
+.reditems-1{
+
+}
+.redcontent__item-box{
+
+}
+.reditem-box-1{
+
+}
+.redcontent__item-title{
+
+}
+.reditem-span-1{
+
+}
+.reditem-text-1{
+
+}
+.redcontent__item{
+
+}
+.redcontent__item-img{
+
+}
+.redcontent__item-box{
+
+}
+.reditem-box-2{
+
+}
+.redcontent__item-title{
+
+}
+.reditem-title-2{
+
+}
+.redcontent__item-text{
+
+}
+.reditem-text-2{
+
+}
+.img-3{
+
+}
+.img-4{
+
+}
+.reditem-box-3{
+
+}
+.reditem-title-3{
+
+}
+.redcontent__item-span{
+
+}
+.reditem-span-3{
+
+}
+.reditem-text-3{
+
+}
+.content-2{
+
+}
+.img-more{
+
+}
+.more-2{
+
+}
+.button-2{
+
+}
 }
 @media (max-width: 767px){
 .redcontent__background{
@@ -520,7 +737,103 @@ margin-top: 1.3%;
 bottom: 62.5%;
 margin-left: 46%;
 }
+.page1__background{
 
+
+}
+.redcontent{
+
+}
+.redcontent-1{
+
+}
+.redcontent__background{
+
+}
+.redtitle-1{
+
+}
+.redsubtitle-2{
+
+}
+.redcontent__items{
+
+}
+.reditems-1{
+
+}
+.redcontent__item-box{
+
+}
+.reditem-box-1{
+
+}
+.redcontent__item-title{
+
+}
+.reditem-span-1{
+
+}
+.reditem-text-1{
+
+}
+.redcontent__item{
+
+}
+.redcontent__item-img{
+
+}
+.redcontent__item-box{
+
+}
+.reditem-box-2{
+
+}
+.redcontent__item-title{
+
+}
+.reditem-title-2{
+
+}
+.redcontent__item-text{
+
+}
+.reditem-text-2{
+
+}
+.img-3{
+
+}
+.img-4{
+
+}
+.reditem-box-3{
+
+}
+.reditem-title-3{
+
+}
+.redcontent__item-span{
+
+}
+.reditem-span-3{
+
+}
+.reditem-text-3{
+
+}
+.content-2{
+
+}
+.img-more{
+
+}
+.more-2{
+
+}
+.button-2{
+
+}
 
 
 
