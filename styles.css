@@ -24,7 +24,7 @@ body{
 .menu__item{
  font: 600 15px/18px 'Montserrat', arial, helvetica, sans-serif;
  color: #000;
- padding: 0 18.5px;
+ padding: 0 19.5px;
  text-decoration: none;
 }
 .menu__item_active{
@@ -135,6 +135,9 @@ height: 60px;
 }
 .main__item{
 width: 40%;
+}
+.menu__itemx{
+  padding-right: 8px;
 }
 .main__item-box{
 margin-left: 30%;
@@ -355,23 +358,25 @@ color: #fff;
   color: #fff;
 }
 .group2{
-  width: 180%;
-  top: 16%;
-  position: relative;
+  width: 68%;
 }
 .page2__img1{
-margin-left: 19.7%;
+margin-left: 19%;
+position: relative;
+top: 16%;
 }
 .page2__img2{
-display: flex;
 position: relative;
-margin-left: -9%;
-bottom: 14%;
+margin-left: -11.8%;
+bottom: -2%;
 z-index: 1;
 }
+.page2__img4{
+  display: none;
+}
 .ride2{
-margin-left: 13%;
-width: 75%;
+margin-left: 12%;
+width: 71%;
 }
 .box2{
 position: relative;
@@ -403,10 +408,10 @@ position: relative;
 color: #fff;
 }
 .rt2{
-    bottom: 5px;
+bottom: 13px;
 }
 .rt3{
-bottom: 12px;
+bottom: 26px;
 }
 .raiting__span{
 font: 700 12px/12px 'Montserrat', arial, helvetica, sans-serif;
@@ -416,30 +421,33 @@ bottom: 14px;
 color: #fff;
 }
 .rt4{
-    bottom: 29px;
+    bottom: 50px;
 }
 .rt5{
-    bottom: 35px;
+    bottom: 63px;
 }
 .raiting__star{
-  background: url('img/star.svg');
-  width: 125px;
-  margin-left: 46%;
-  height: 22px;
-  position: relative;
-  bottom: 23px;
+margin: 0;
+bottom: 24px;
+position: relative;
+margin-left: 46%;
+width: 44%;
+}
+.img__star{
+width: 25px;
+height: 25px;
 }
 .rtstar2{
-bottom: 29px;
+bottom: 37px;
 }
 .rtstar3{
-bottom: 46px;
+bottom: 62px;
 }
 .rtstar4{
-bottom: 52px;
+bottom: 75px;
 }
 .rtstar5{
-bottom: 58px;
+bottom: 87px;
 }
 .img2-1{
   background: url('img/group.svg');
@@ -447,8 +455,8 @@ bottom: 58px;
   width: 62px;
   height: 74px;
   position: relative;
-  margin-left: 3%;
-  margin-top: 3%;
+  margin-left: 4%;
+  margin-top: 4%;
   margin-right: 10%;
 }
 .title2-1{
@@ -464,12 +472,12 @@ bottom: 52px;
 .text2-1{
 font: 600 25px/30px 'Montserrat', arial, helvetica, sans-serif;
 position: relative;
-bottom: 53px;
+bottom: 52px;
 }
 .content-3{
 position: relative;
-top: 17.7%;
-margin-left: 8.8%;
+top: 18%;
+margin-left: 8%;
 }
 .more-3{
 color: #fff;
@@ -647,11 +655,11 @@ width: 87%;
 }
 .box1{
 margin-left: 2.5%;
-bottom: 431px;
+bottom: 429px;
 }
 .ride1{
 display: flex;
-margin-bottom: 55px;
+margin-bottom: 54px;
 }
 .content1{
   margin-left: 1.5%;
@@ -762,8 +770,16 @@ width: 160%;
   margin-left: 26%;
   width: 529%;
 }
+.raiting__box{
+  top: 2px;
+  position: relative;
+}
+.raiting__span{
+  margin-left: 23%;
+}
 .raiting__star{
   margin-left: 52%;
+  width: 50%;
 }
 .column2-1{
   display: none;
@@ -775,22 +791,20 @@ width: 160%;
 .more-3{
 margin-right: 2%;
 }
-.group2{
-  position: relative;
-top: -13%;
-}
 .page2__img1{
   position: relative;
-  margin: 0;
-top: 164%;
-  width: 42%;
-  margin-left: 7%;
+  top: 142.2%;
+  width: 113%;
+  margin-left: 18.3%;
 }
 .page2__img2{
   position: relative;
-  width: 54%;
-  top: 145%;
-  padding-left: 8%
+  width:143%;
+  top: 122%;
+  padding-left: 9%;
+}
+.page2__img4{
+  display: none;
 }
 }
 @media (max-width: 767px){
@@ -807,7 +821,7 @@ padding-top: 3px;
 margin-bottom: 6%;
 }
 .logo{
-background-size: 138px 47px;
+background-size: 138px 43px;
 }
 .menu__btn{
 right: 21px;
@@ -822,9 +836,12 @@ line-height: 0;
 margin-bottom: 41px;
 }
 .main__img{
-width: 105%;
+width: 103%;
 right: 14px;
 bottom: 27px;
+}
+.container{
+  height: 0px;
 }
 .main__img-2{
 margin-top: 18px;
@@ -841,6 +858,10 @@ bottom: 68%;
 .main__item{
 width: 45%;
 }
+.ride1{
+  margin: 0;
+  display: flex;
+}
 .img-1{
 width: 33%;
 margin-top: 10px;
@@ -849,6 +870,11 @@ margin-left: 2%;
 .box-1{
 margin-top: 63%;
 margin-left: 44px;
+}
+.box-2{
+  position: relative;
+  bottom: 99px;
+  margin-left: 35%;
 }
 .main__item-title{
 font: 600 27px/33px 'Montserrat', arial, helvetica, sans-serif;
@@ -875,12 +901,9 @@ margin: 0;
 background-size: 45px 45px;
 margin-left: 4%;
 }
-.box-2{
-  margin-top: 45%;
-  margin-left: 48px;
-}
-.title-2{
-bottom: 59px;
+.box2{
+top: 58%;
+width: 100%;
 }
 .content-1{
 width: 95%;
@@ -917,7 +940,7 @@ background: url('img/models375.svg');
 width: 100%;
 height: 323px;
 position: absolute;
-top: 86%;
+top: 100%;
 }
 .page1__h1{
   display: none;
@@ -925,13 +948,14 @@ top: 86%;
 .body1{
   position: relative;
   bottom: 88px;
+  height: 300px;
 }
 .page__redbg{
 height: 305px;
 }
 .content1{
   margin-left: 4%;
-  margin-top: 44.4%;
+  margin-top: 44%;
 }
 .page__title{
 width: 101%;
@@ -952,22 +976,27 @@ width: 101%;
 }
 .row3{
 position: relative;
-bottom: 683px;
+height: 0;
+}
+.row1{
+height: 0px;
 }
 .body2{
 position: relative;
 bottom: 387px;
 }
 .ride2{
-margin-left: 4%;
+margin: 0;
+top: 19%;
 }
 .content2{
 position: relative;
-width: 45%;
-top: 16%;
+width: 92%;
+margin-left: 9%;
+top: 38%;
 }
 .page2__title{
-margin: 0;
+margin-bottom: 4%;
 }
 .page2__subtitle{
 line-height: 123%;
@@ -975,13 +1004,21 @@ line-height: 123%;
 .raiting{
   display: none;
 }
+.redbg2{
+top: 214%;
+}
+.box2{
+top: 153%
+}
+.content-3{
+  display: none;
+}
 .page2__img1{
+top: 469%;
+width: 146%;
 margin: 0;
-width: 59%;
-top: 118%;
 }
 .page2__img2{
-top: 93%;
-padding-left: 8.5%;
+top: 445%;
 }
 }
