@@ -421,10 +421,10 @@ bottom: 13px;
 bottom: 26px;
 }
 .raiting__span {
-font: 700 12px/12px 'Montserrat', arial, helvetica, sans-serif;
-margin-left: 20%;
+font: 700 12px/11px 'Montserrat', arial, helvetica, sans-serif;
+margin-left: 20.6%;
 position: relative;
-bottom: 14px;
+bottom: 12px;
 color: #fff;
 }
 .rt4 {
@@ -494,22 +494,186 @@ margin-left: 8%;
 padding: 10px 40px;
 color: #fff;
 }
-@media (max-width: 1439px){
+@media (max-width: 1372px){
 .header{
-width: 94%;
-margin-bottom: 10.5%;
+padding-right: 0px;
 }
-.menu__item {
+.main__img{
+
+}
+.logo{
+
+}
+.main{
+
+}
+.menu__box{
+
+}
+.menu__item{
+
+}
+.menu1{
+margin-left: 10%;
+}
+.menu__btn{
+
+}
+.main__items{
+
+}
+.page__redbg{
+bottom: 0.5%;
+}
+.page__content{
+
+}
+.redbg1{
+
+}
+.redbg2{
+
+}
+.page__box{
+
+}
+.column2-1{
+
+}
+.raiting{
+
+}
+.raiting__star{
+width: 73%;
+}
+.img__star{
+
+}
+.raiting__text{
+
+}
+.group2{
+
+}
+.group2__img1{
+margin-left: 14%;
+}
+.group2__img2{
+margin-left: -13%;
+}
+}
+@media (max-width: 1300px){
+.header{
+padding-right: 0px;
+}
+.main__img{
+
+}
+.logo{
+
+}
+.main{
+
+}
+.menu{
+width: 52%;
+}
+.menu__box{
+
+}
+.menu__item{
+
+}
+.menu__btn{
+margin-right: -2%;
+}
+.menu1{
+margin-left: 7%;
+margin-right: 6%;
+}
+.main__items{
+
+}
+.text-1{
+width: 100%;
+}
+.content-1{
+
+}
+.page2__title{
+width: 116%;
+}
+.page__row{
+height: 893px;
+}
+.group2{
+
+}
+.group2__img1{
+margin-left: 7%;
+}
+.group2__img2{
+margin-left: -17%;
+}
+}
+@media (max-width: 1237px){
+.header{
+
+}
+.main__img{
+
+}
+.logo{
+
+}
+.main{
+
+}
+.menu__item{
 display: none;
+}
+.menu__btn{
+
+}
+.content__more{
+
+}
+.menu1{
+display: none;
+}
+.content-1{
+width: 46%;
+}
+.page__redbg{
+
+}
+.main__item-span{
+margin-left: 99%;
+}
+.page__title{
+
+}
+.group2__img1{
+
+}
+.group2__img2{
+
+}
+.group1{
+
+}
+}
+@media (max-width: 768px){
+.header{
+width: 96%;
+margin-bottom: 10.5%;
 }
 .menu__btn {
 right: 33px;
 width: 35px;
 height: 22px;
 top: 38px;
-}
-.menu1 {
-display: none;
+margin-right: 0;
 }
 .main__title {
 margin-left: 26%;
@@ -634,6 +798,7 @@ margin-left: 47.8%;
 z-index: 1;
 }
 .row1 {
+display: block;
 flex-direction: column;
 }
 .group1 {
@@ -653,7 +818,7 @@ padding-top: 1.3%;
 .page__redbg {
 background: url('img/redbg768.svg');
 width: 100%;
-height: 488px;
+height: 490px;
 }
 .body1 {
 position: relative;
@@ -673,7 +838,7 @@ bottom: 29px;
 }
 .ride1 {
 display: flex;
-margin-bottom: 54px;
+margin-bottom: 9.5%;
 }
 .content1 {
 margin-left: 1.5%;
@@ -758,7 +923,7 @@ top: 14.8%;
 }
 .redbg2 {
 position: relative;
-top: 72.2%;
+top: 73.6%;
 }
 .box2 {
 position: relative;
@@ -772,8 +937,8 @@ width: 95%;
 height: 272px;
 margin-left: 4.5%;
 position: relative;
-top: 13%;
-margin-bottom: 1.4%
+top: 16%;
+margin-bottom: 3.4%;
 }
 .content2 {
 width: 105%;
@@ -819,7 +984,7 @@ width: 100%;
 background: url('img/models2-2.svg');
 background-repeat: no-repeat;
 position: relative;
-top: 142.3%;
+top: 144.3%;
 margin-left: 12.5%;
 }
 .group2__img2 {
@@ -827,13 +992,27 @@ background: url('img/carframe768.svg');
 background-repeat: no-repeat;
 position: relative;
 margin-left: 0%;
-top: 111.8%;
+top: 113.8%;
 }
 }
-@media (max-width: 767px){
+@media (max-width: 600px){
+.columns{
+display: none;
+}
 .content-2, .content-3{
 display: none;
 }
+.page1__h1{
+display: none;
+}
+.raiting{
+display: none;
+}
+.content2{
+width:30%;
+}
+}
+@media (max-width: 377px){
 .main__title {
 font: 600 50px/61px 'Montserrat', arial, helvetica, sans-serif;
 margin-left:22.6%;
@@ -842,6 +1021,7 @@ margin-bottom: 4px;
 .header {
 padding-top: 3px;
 margin-bottom: 5.5%;
+width: 99%;
 }
 .main {
 height: 507px;
@@ -923,7 +1103,7 @@ margin-left: 4%;
 margin-top: 4px;
 }
 .box2 {
-top: 28%;
+top: 29%;
 width: 100%;
 }
 .box-1 {
@@ -976,6 +1156,7 @@ top: -19px;
 }
 .row1 {
 height: 607px;
+display: flex;
 }
 .body1 {
 height: 283.2px;
@@ -1018,6 +1199,9 @@ margin: 0;
 .page2__subtitle {
 margin-top: 10px;
 }
+.content2{
+width: 100%;
+}
 .row3 {
 position: relative;
 }
@@ -1025,7 +1209,7 @@ position: relative;
 top: 0px;
 }
 .redbg2 {
-top: 100.3%;
+top: 101.2%;
 }
 .ride2 {
 top: 58.9%;
@@ -1035,14 +1219,14 @@ width: 89%;
 .group2__img1 {
 background: url('img/model2375.svg');
 background-repeat: no-repeat;
-top: 220.9%;
+top: 222.7%;
 margin-left: 1px;
 height: 200px;
 }
 .group2__img2 {
 background: url('img/carframe375.svg');
 background-repeat: no-repeat;
-top: 178.5%;
+top: 180.4%;
 height: 248px;
 }
 .columns {
