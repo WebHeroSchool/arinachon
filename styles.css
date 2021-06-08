@@ -2,17 +2,15 @@ body {
 font-family: 'Montserrat', sans-serif;
 margin: 0;
 }
-
 .header {
 display: flex;
 padding: 24px 17px 0 0;
-width: 93%;
+width: 95%;
 margin: auto;
 }
 .logo {
 width: 166px;
 height: 51px;
-margin-right: 17.8%;
 background: url('img/teslalogo.svg');
 background-repeat: no-repeat;
 }
@@ -20,6 +18,7 @@ background-repeat: no-repeat;
 display: flex;
 padding-top: 4px;
 align-items: center;
+margin-left: 30%;
 }
 .menu__item {
 font: 600 15px/18px 'Montserrat', arial, helvetica, sans-serif;
@@ -35,8 +34,7 @@ margin-right: 26px;
 position: absolute;
 display: block;
 content: '';
-margin-left: 5px;
-width: 4%;
+width: 2.5%;
 height: 2px;
 background: #E51937;
 margin-top: 5px;
@@ -48,7 +46,7 @@ margin-left: 10px;
 display: flex;
 padding-top: 4px;
 align-items: center;
-margin-left: 15.2%;
+margin-left: 30%;
 }
 .menu1__item {
 font: 600 15px/18px 'Montserrat', arial, helvetica, sans-serif;
@@ -105,14 +103,14 @@ height: 767px;
 .main__title {
 font: 600 90px/110px 'Montserrat', arial, helvetica, sans-serif;
 margin-top: 4%;
-margin-left: 37.1%;
+margin-left: 41%;
 margin-bottom: 0;
 }
 .main__subtitle {
 font: 500 15px/18.29px 'Montserrat', arial, helvetica, sans-serif;
 margin-top: 0;
 margin-bottom: 0;
-margin-left: 41.7%;
+margin-left: 44%;
 line-height: 0px;
 }
 .main__img {
@@ -122,6 +120,7 @@ background-size: contain;
 height: 600px;
 position: relative;
 bottom: 109px;
+margin-left: 18%;
 }
 
 .main__items {
@@ -129,8 +128,8 @@ display: inline-flex;
 justify-content: space-between;
 position: relative;
 bottom: 75px;
-margin-left: 21.9%;
-width: 27%;
+margin-left: 26%;
+width: 19%;
 height: 60px;
 }
 .main__item {
@@ -142,11 +141,11 @@ padding-right: 8px;
 .main__item-box {
 margin-left: 30%;
 position: relative;
-bottom: 155%;
+bottom: 95px;
 width: 64%;
 }
 .box-2 {
-bottom: 184%;
+bottom: 110px;
 }
 .main__item-title {
 font: 600 35px/43px 'Montserrat', arial, helvetica, sans-serif;
@@ -190,9 +189,9 @@ width: 22px;
 height: 22px;
 }
 .content-1 {
-margin-left: 55.5%;
+margin-left: 54%;
 width: 25%;
-bottom: 138px;
+bottom: 139px;
 }
 .content__more {
 font: 700 13px/16px 'Montserrat', arial, helvetica, sans-serif;
@@ -221,14 +220,14 @@ flex-direction: row;
 .group1 {
 background: url('img/models.svg');
 background-repeat: no-repeat;
-margin-top: 3.9%;
+margin-top: 57px;
 height: 844px;
 width: 574%;
 }
 .page1__h1 {
 font: 600 70px/85px 'Montserrat', arial, helvetica, sans-serif;
 color: #E51937;
-padding-top: 0.9%;
+margin-top: 9px;
 margin-left: 8%;
 }
 .page__redbg {
@@ -237,6 +236,7 @@ background-repeat: no-repeat;
 position: relative;
 width: 440px;
 height: 900px;
+top: 36px;
 }
 .box1 {
 display: flex;
@@ -367,16 +367,15 @@ background: url('img/models2.svg');
 background-repeat: no-repeat;
 position: relative;
 height: 269px;
-top: 16%;
-margin-left: 19%;
+top: 97px;
+margin-left: 30%;
 }
 .group2__img2 {
 background: url('img/carframe.svg');
 background-repeat: no-repeat;
 position: relative;
 height: 592px;
-bottom: 11%;
-margin-left: -11.9%;
+margin-left: 20.1%;
 }
 .page2__img4 {
 display: none;
@@ -391,6 +390,7 @@ height: 800px;
 bottom: 850px;
 display: flex;
 flex-direction: column;
+width: 96%;
 }
 .page2__title {
 margin-bottom: 17px;
@@ -435,7 +435,7 @@ bottom: 63px;
 }
 .raiting__star {
 margin: 0;
-bottom: 24px;
+bottom: 26px;
 position: relative;
 margin-left: 46%;
 width: 44%;
@@ -463,28 +463,29 @@ width: 62px;
 height: 74px;
 position: relative;
 margin-left: 4%;
-margin-top: 4%;
 margin-right: 10%;
 }
 .title2-1 {
 font: 600 50px/61px 'Montserrat', arial, helvetica, sans-serif;
 position: relative;
+margin-left: -3px;
 }
 .span2-1{
 font: 600 50px/45px 'Montserrat', arial, helvetica, sans-serif;
 position: relative;
-margin-left: 22%;
-bottom: 52px;
+margin-left: 23%;
+bottom: 53px;
 }
 .text2-1 {
 font: 600 25px/30px 'Montserrat', arial, helvetica, sans-serif;
 position: relative;
 bottom: 52px;
+margin-left: -3px;
 }
 .content-3 {
 position: relative;
 top: 143px;
-margin-left: 8%;
+margin-left: 8.6%;
 }
 .more-3 {
 color: #fff;
@@ -494,6 +495,108 @@ margin-left: 8%;
 padding: 10px 40px;
 color: #fff;
 }
+@media (max-width: 1714px){
+.logo{
+margin-right: 20%;
+}
+.menu{
+margin-left: 6%;
+}
+.menu__item_active::after{
+width: 3.5%;
+}
+.menu1{
+margin-left: 18%;
+}
+.main__img{
+margin-left: 8%;
+}
+.main__items{
+width: 23%;
+}
+.page__redbg{
+top: 0px;
+}
+.raiting{
+width: 116%;
+}
+.group2__img1{
+margin-left: 19%;
+}
+.group2__img2{
+ margin: 0;
+}
+}
+@media (max-width: 1441px){
+.header{
+margin: 0;
+}
+.logo{
+margin-left: 42px;
+margin-right: 0;
+width: 157px;
+}
+.menu{
+width: 40%;
+margin-left: 18%;
+}
+.menu__item_active::after{
+width: 4.5%;
+}
+.menu1{
+margin-left: 13.5%;
+}
+.main__title{
+margin-left: 37.2%;
+}
+.main__subtitle{
+margin-left: 41.6%;
+margin-top: 1px;
+}
+.main__img{
+margin-left: 0;
+}
+.main__items{
+margin-left: 22%;
+width: 27%;
+}
+.content-1{
+margin-left: 55.6%;
+}
+.page1__h1{
+margin-top: 8px;
+}
+.box1{
+bottom: 861px;
+}
+.box2{
+width: 97%;
+}
+.title1-3{
+margin-top: 67px;
+}
+.ride2{
+margin-top: 1px;
+margin-left: 12.7%;
+}
+.raiting__star{
+margin-left: 41%;
+}
+.raiting__span{
+margin-left: 18%;
+bottom: 15px;
+}
+.img2-1{
+top: 9px;
+}
+.group2__img1{
+margin-top: 45px;
+}
+.group2__img2{
+margin-left: -12%;
+bottom: 143px;
+}
+}
 @media (max-width: 1372px){
 .header{
 padding-right: 0px;
@@ -502,7 +605,7 @@ padding-right: 0px;
 margin-left: 10%;
 }
 .page__redbg{
-bottom: 0.5%;
+top: 1px;
 }
 .raiting__star{
 width: 73%;
@@ -572,36 +675,40 @@ width: 77%;
 margin-left: 74%;
 }
 .main__img{
-bottom: 4%;
+bottom: 30px;
 }
 }
 @media (max-width: 768px){
 .header{
+padding-top: 27px;
 width: 96%;
-margin-bottom: 10.5%;
 }
 .column2-1{
 display: none;
 }
+.logo{
+margin-left: 2%;
+}
 .menu__btn {
 right: 33px;
 width: 35px;
-height: 22px;
-top: 38px;
+height: 37px;
+top: 34px;
 margin-right: 0;
 }
 .main__title {
 margin-left: 26%;
+margin-top: 81px;
 }
 .main__subtitle {
 margin-left: 34.2%;
-margin-bottom: 12.4%;
 }
 .main__img  {
 background: url('img/wordmark.svg');
 background-repeat: no-repeat;
 background-size: contain;
-bottom: 109px;
+bottom: 15px;
+margin: 0;
 }
 .main__img-2 {
 background: url('img/maincar.svg');
@@ -609,7 +716,7 @@ background-repeat: no-repeat;
 background-size: contain;
 width: 88%;
 position: relative;
-bottom: 78.1%;
+bottom: 506px;
 margin-left: 6%;
 height: 350px;
 z-index: 1;
@@ -617,18 +724,18 @@ z-index: 1;
 .main__items {
 margin-left: 16%;
 width: 65%;
-bottom: 75%;
+bottom: 482px;
 }
 .main__item {
 margin-left: 1.7%;
 }
 .img-1 {
 width: 78px;
-margin-top: 4%;
+margin-top: 8px;
 margin-left: 1.5%;
 }
 .main__item-box {
-bottom: 220%;
+bottom: 132px;
 }
 .box-1 {
 margin-left: 37%;
@@ -680,8 +787,8 @@ margin-left: 20%;
 align-items: center;
 }
 .content-1 {
-bottom: 68%;
-padding-top: 2px;
+bottom: 428px;
+padding-top: 1px;
 }
 .content__background {
 background: url('img/wheelred.svg');
@@ -714,7 +821,7 @@ border: #E51937;
 padding: 18px 65px;
 }
 .main__img1 {
-bottom: 60.3%;
+bottom: 368px;
 margin-left: 47.8%;
 z-index: 1;
 }
@@ -727,14 +834,13 @@ background: url('img/tesla768.svg');
 background-repeat: no-repeat;
 display: flex;
 position: relative;
-top: 15.2%;
+top: 137px;
 height: 502px;
 width: 100%;
 margin: 0;
 }
 .page1__h1 {
 margin-left: 56.5%;
-padding-top: 1.3%;
 }
 .page__redbg {
 background: url('img/redbg768.svg');
@@ -743,7 +849,7 @@ height: 490px;
 }
 .body1 {
 position: relative;
-top: 15%;
+top: 134px;
 }
 .page__box {
 display: inline-block;
@@ -751,7 +857,7 @@ width: 87%;
 }
 .box1 {
 margin-left: 2.5%;
-bottom: 430px;
+bottom: 432px;
 }
 .span1-3 {
 margin-left: 46%;
@@ -759,7 +865,6 @@ bottom: 29px;
 }
 .ride1 {
 display: flex;
-margin-bottom: 9.5%;
 }
 .content1 {
 margin-left: 1.8%;
@@ -791,6 +896,7 @@ padding-top: 3px;
 .item__title {
 font: 600 35px/43px 'Montserrat', arial, helvetica, sans-serif;
 color: #fff;
+margin-left: 18px;
 }
 .item__span {
 font: 600 20px/24px 'Montserrat', arial, helvetica, sans-serif;
@@ -802,11 +908,12 @@ color: #fff;
 }
 .img1-2 {
 bottom: 14px;
+margin-left: -3px;
 }
 .title1-2 {
 font: 600 20px/18px 'Montserrat', arial, helvetica, sans-serif;
 color: #fff;
-margin-left: 17px;
+margin-left: 20px;
 bottom: 8px;
 }
 .text1-2 {
@@ -825,13 +932,14 @@ bottom: 42px;
 .content-2 {
 width: 77%;
 position: relative;
-top: 2%;
+top: 63px;
 }
 .button-2 {
 padding: 15px 62px;
+margin-top: 2px;
 }
 .more-2 {
-margin-top: 4%;
+margin-top: 19px;
 margin-right: 3.5px;
 }
 .row3 {
@@ -840,17 +948,17 @@ flex-direction: column-reverse;
 }
 .body2 {
 position: relative;
-top: 14.8%;
+top: 134px;
 }
 .redbg2 {
 position: relative;
-top: 715px;
+top: 711px;
 }
 .box2 {
 position: relative;
 width: 767px;
 height: 480px;
-top: 21.8%;
+top: 209px;
 }
 .ride2 {
 display: flex;
@@ -858,13 +966,13 @@ width: 95%;
 height: 272px;
 margin-left: 4.5%;
 position: relative;
-top: 16%;
+top: 76px;
 }
 .content2 {
 width: 105%;
 }
 .page2__title {
-margin-bottom: 7%;
+margin-bottom: 12px;
 width: 167%;
 }
 .page2__subtitle {
@@ -885,7 +993,7 @@ margin-left: 23%;
 bottom: 15px;
 }
 .raiting__title{
-margin-bottom: 24px;
+margin-bottom: 23px;
 }
 .raiting__star {
 margin-left: 52%;
@@ -900,18 +1008,20 @@ margin-left: 2px;
 }
 .more-3 {
 margin-right: 2%;
+margin-top: 17px;
+margin-left: 10px;
 }
 .group2 {
 width: 100%;
 }
 .content-3{
-top: 111px;
+top: 109px;
 }
 .group2__img1 {
 background: url('img/models2-2.svg');
 background-repeat: no-repeat;
 position: relative;
-top: 144.3%;
+top: 1240px;
 margin-left: 12.5%;
 }
 .group2__img2 {
@@ -919,7 +1029,7 @@ background: url('img/carframe768.svg');
 background-repeat: no-repeat;
 position: relative;
 margin-left: 0%;
-top: 113.8%;
+top: 977px;
 }
 }
 @media (max-width: 760px){
@@ -967,12 +1077,13 @@ margin: 0;
 @media (max-width: 377px){
 .main__title {
 font: 600 50px/61px 'Montserrat', arial, helvetica, sans-serif;
-margin-left:22.6%;
+margin: 0;
+margin-left: 22.6%;
+margin-top: 21px;
 margin-bottom: 4px;
 }
 .header {
 padding-top: 3px;
-margin-bottom: 5.5%;
 width: 99%;
 }
 .main {
@@ -980,6 +1091,7 @@ height: 507px;
 }
 .logo {
 background-size: 138px 43px;
+margin-left: 2px;
 }
 .menu__btn {
 right: 21px;
@@ -1004,17 +1116,15 @@ bottom: 23px
 height: 0px;
 }
 .main__img-2 {
-margin-top: 187px;
 width: 92%;
 margin-left: 4%;
 height: 170px;
-margin-top: 246px;
+margin-top: 356px;
 }
 .main__items {
 width: 80%;
 margin-left: 8.8%;
-bottom: 74.3%;
-margin-bottom: 11px;
+margin-top: -6px;
 }
 .main__item {
 width: 45%;
@@ -1024,9 +1134,9 @@ margin: 0;
 display: flex;
 }
 .img-1 {
-width: 33%;
-margin-top: 12px;
-margin-left: 2%;
+width: 35%;
+margin-top: 13px;
+margin-left: 1%;
 }
 .main__item-title {
 font: 600 27px/33px 'Montserrat', arial, helvetica, sans-serif;
@@ -1059,11 +1169,11 @@ margin-left: 9.4%;
 margin-top: 3px;
 }
 .box2 {
-top: 226px;
+top: 224px;
 width: 100%;
 }
 .box-1 {
-margin-top: 88px;
+margin-top: 85px;
 margin-left: 34px;
 }
 .box-2 {
@@ -1074,12 +1184,12 @@ margin-left: 44%;
 .content-1 {
 width: 95%;
 margin-left: 3%;
-bottom: 71.3%;
+margin-top: -32px;
 }
 .wheelblack {
 background: url('img/wheelred.svg');
 background-repeat: no-repeat;
-margin-top: 3.7%;
+margin-top: 18px;
 margin-right: 0;
 margin-left: 7%;
 background-size: 24px;
@@ -1087,7 +1197,7 @@ background-size: 24px;
 .more-1 {
 font: 700 13px/16px 'Montserrat', arial, helvetica, sans-serif;
 margin: 0;
-margin-top: 1.4%;
+margin-top: 12px;
 margin-left: -2px;
 color: #E51937;
 }
@@ -1095,11 +1205,11 @@ color: #E51937;
 font: 700 13px/16px 'Montserrat', arial, helvetica, sans-serif;
 padding: 12px 43px;
 right: 1%;
-margin-top: 1.2%;
+margin-top: 10px;
 position: relative;
 }
 .main__img1 {
-bottom: 66%;
+bottom: 401px;
 margin-left: 46%;
 }
 .page__redbg {
@@ -1116,14 +1226,14 @@ display: flex;
 }
 .body1 {
 height: 283.2px;
-top: -3.4%;
+top: -80px;
 position: relative;
 }
 .redbg1 {
-top: 1px;
+top: 61px;
 }
 .box1 {
-bottom: 295px;
+bottom: 236px;
 height: 250px;
 width: 95%;
 }
@@ -1165,7 +1275,7 @@ position: relative;
 top: 0px;
 }
 .redbg2 {
-top: 795px;
+top: 794px;
 }
 .ride2 {
 top: 285px;
@@ -1175,14 +1285,14 @@ width: 89%;
 .group2__img1 {
 background: url('img/model2375.svg');
 background-repeat: no-repeat;
-top: 222.7%;
+top: 997px;
 margin-left: 1px;
 height: 200px;
 }
 .group2__img2 {
 background: url('img/carframe375.svg');
 background-repeat: no-repeat;
-top: 180.4%;
+top: 807px;
 height: 248px;
 }
 .columns {
