@@ -208,7 +208,7 @@ padding: 10px 40px;
 color: #E51937;
 }
 .main__img1 {
-background: url('img/vector.svg');
+background: url('img/Vector.png');
 background-repeat: no-repeat;
 position: relative;
 margin-left: 48.8%;
@@ -498,7 +498,60 @@ padding: 10px 40px;
 color: #fff;
 }
 @media (min-width: 1920px){
-body: max-width: 1920px;
+body{
+max-width: 1920px;
+}
+}
+@media (max-width: 1920px){
+.logo{
+margin-right: 20%;
+}
+.menu{
+margin-left: 6%;
+}
+.menu__item_active::after{
+width: 3.5%;
+}
+.menu1{
+margin-left: 18%;
+}
+.main__img{
+margin-left: 8%;
+}
+.main__items{
+width: 23%;
+}
+.page__redbg{
+top: 0px;
+}
+.group1{
+
+}
+.raiting{
+width: 116%;
+}
+.group2__img1{
+margin-left: 19%;
+}
+.group2__img2{
+ margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 @media (max-width: 1714px){
 .logo{
