@@ -13,10 +13,6 @@
   <header class="header">
     <div class="logo"></div>
     <nav class="menu">
-      <div class="hamburger-menu">
-  <label class="menu__btn" for="menu__toggle">
-    <span></span>
-  </label>
   <ul class="menu__box">
     <li><a class="menu__item menu__item_active" href="#">Model S</a></li>
     <li><a class="menu__item" href="#">Model X</a></li>
@@ -24,9 +20,8 @@
     <li><a class="menu__item" href="#">Roadster</a></li>
     <li><a class="menu__item" href="#">Energy</a></li>
   </ul>
-</div>
       <a class="menu__item menu__item_active" href="#">Model S</a>
-      <a class="menu__item" href="#">Model X</a>
+      <a class="menu__item menu__itemx" href="#">Model X</a>
       <a class="menu__item" href="#">Model 3</a>
       <a class="menu__item" href="#">Roadster</a>
       <a class="menu__item" href="#">Energy</a>
@@ -35,6 +30,10 @@
       <a class="menu1__item" href="#">Магазин</a>
       <a class="menu1__item" href="#">Войти</a>
     </nav>
+    <div class="hamburger-menu">
+<label class="menu__btn" for="menu__toggle">
+  <span></span>
+</label>
   </header>
 <section class="main">
     <h1 class="main__title">Model S</h1>
@@ -64,107 +63,191 @@
       </div>
       </div>
     <div class="content content-1">
-      <img class="content__img" src="./img/wheel.svg" alt="wheel">
-      <div class="content__background"></div>
+      <div class="content__background wheelblack"></div>
       <p class="content__more more-1">ТЕСТ ДРАЙВ</p>
       <a class="content__button button-1" href="#">ЗАКАЗАТЬ</a>
     </div>
-    <img class="main__img1" src="./img/vector.svg" alt="vector">
+    <div class="main__img1"></div>
 </section>
 <section class="page1">
-  <div class="container">
-  <div class="page1__background"></div>
-  <h1 class="page1__title">Model S</h1>
-  <div class="redcontent redcontent-1">
-    <img class="redcontent__background" src="./img/red.svg" alt="content">
-    <h1 class="redcontent__title redtitle-1">Будущее вождения</h1>
-    <p class="redcontent__subtitle redsubtitle-2">Модель S обладает лучшей в своем классе вместимостью: в машине поместится до пяти взрослых и двух детей. Оснащена современным 17-дюймовым сенсорным экраном. Усовершенствованная шумовая инженерия создает динамику звука, сравнимую со студией звукозаписи, а стеклянная крыша обеспечивает просторный интерьер для каждого пассажира.</p>
-    <div class="redcontent__items reditems-1">
-      <div class="redcontent__item">
-      <img class="redcontent__item-img" src="./img/display.svg" alt="display">
-      <div class="redcontent__item-box reditem-box-1">
-        <p class="redcontent__item-title reditem-title-1">
-          17 <span class="redcontent__item-span reditem-span-1">дюймов</span>
-        </p>
-        <p class="redcontent__item-text reditem-text-1">Большой дисплей</p>
-</div>
-</div>
-<div class="redcontent__item">
-<img class="redcontent__item-img" src="./img/wifi.svg" alt="wifi">
-<div class="redcontent__item-box reditem-box-2">
-  <p class="redcontent__item-title reditem-title-2">
-    Беспроводное обновление ПО </p>
-  <p class="redcontent__item-text reditem-text-2">Повышенная функциональность</p>
-</div>
-</div>
-<div class="redcontent__item">
-<img class="redcontent__item-img" src="./img/bag.svg" alt="bag">
-<div class="redcontent__item-box reditem-box-3">
-  <p class="redcontent__item-title reditem-title-3">
-    894  <span class="redcontent__item-span reditem-span-3">литра</span>
-  </p>
-  <p class="redcontent__item-text reditem-text-3">Объем грузового пространства</p>
-</div>
-</div>
-</div>
-      <div class="content content-2">
-        <img class="content__img" src="./img/more.svg" alt="more">
-        <p class="content__more more-2">УЗНАТЬ БОЛЬШЕ</p>
-        <a class="content__button button-2" href="#">ЗАКЗАТЬ</a>
+  <div class="wrapper">
+  <div class="page1">
+    <div class="container">
+      <div class="page__row row1">
+        <div class="page__group group1">
+          <div class="page1__h1">Model S</div>
+        </div>
+        <div class="page__body body1">
+         <div class="page__redbg redbg1"></div>
+         <div class="page__box box1">
+           <div class="page__ride ride1">
+             <div class="page__content content1">
+         <div class="page__title title1">Будущее вождения</div>
+        <div class="page__subtitle subtitle1">Модель S обладает лучшей в своем классе вместимостью: в машине поместится до пяти взрослых и двух детей. Оснащена современным 17-&nbsp;дюймовым сенсорным экраном. Усовершенствованная шумовая инженерия создает динамику звука, сравнимую со студией звукозаписи, а стеклянная крыша обеспечивает просторный интерьер для каждого пассажира.</div>
+      </div>
+        <div class="columns">
+         <div class="container">
+           <div class="colums__row">
+            <div class="colums__column column-1">
+              <div class="columns__item item">
+                <div class="items__row">
+                  <img class="item__img img1-1" src="img/display.svg" alt="">
+                  <div class="item__body">
+                    <div class="item__title title1-1">
+                    17 <div class="item__span span1-1">дюймов</div>
+                  </div>
+                    <div class="item__text text1-1">Большой дисплей</div>
+                  </div>
+                </div>
+              </div>
+         </div>
+         <div class="colums__column column-2">
+           <div class="columns__item item">
+             <div class="items__row">
+               <img class="item__img img1-2" src="img/wifi.svg" alt="">
+               <div class="item__body">
+                 <div class="item__title title1-2">
+                   Беспроводное обновление ПО</div>
+                 <div class="item__text text1-2">Повышенная функциональность</div>
+               </div>
+             </div>
+           </div>
+      </div>
+      <div class="colums__column column-3">
+        <div class="columns__item item">
+          <div class="items__row">
+            <img class="item__img img1-3" src="img/bag.svg" alt="">
+            <div class="item__body">
+              <div class="item__title title1-3">
+              894  <div class="item__span span1-3">литра</div>
+            </div>
+            <div class="item__text text1-3">Объем грузового пространства</div>
+            </div>
+          </div>
+        </div>
+   </div>
+   </div>
+         </div>
+      </div>
+        </div>
+        <div class="content content-2">
+          <img class="content__img moreimg1" src="./img/more.svg" alt="wheel">
+          <p class="content__more more-2">УЗНАТЬ БОЛЬШЕ</p>
+          <a class="content__button button-2" href="#">ЗАКАЗАТЬ</a>
+        </div>
       </div>
     </div>
+    </div>
+</div>
+  </div>
   </div>
 </section>
 <section class="page2">
-<div class="container">
-  <div class="page2__background-title"></div>
-  <div class="page2__background-car"></div>
-  <div class="redcontent redcontent-2">
-    <img class="redcontent__background" src="./img/red.svg" alt="content">
-    <h1 class="redcontent__title redcontent__title-2">Самый безопасный
- автомобиль в мире</h1>
-    <p class="redcontent__subtitle redcontent__subtitle-2">Модель S достигла наивысшей оценки безопасности любого автомобиля, когда-либо испытанного, и установила рекорд по наименьшей вероятности травмы пассажиров - от несчастных случаев на переднем, боковом, заднем сидении и в ДТП с переворотом авто.</p>
-    <div class="rating">
-      <h1 class="raiting__title">Оценка защиты: </h1>
-      <div class="raiting__box raiting__box-1">
-      <p class="raiting__text">СПЕРЕДИ</p>
-      <div class="raiting__star"></div>
+  <div class="wrapper">
+  <div class="page2">
+    <div class="container">
+      <div class="page__row row3">
+        <div class="page__body body2">
+         <div class="page__redbg redbg2"></div>
+         <div class="page__box box2">
+           <div class="page__ride ride2">
+             <div class="page__content content2">
+         <div class="page__title title2">Самый безопасный автомобиль в мире</div>
+        <div class="page__subtitle subtitle2">Модель S достигла наивысшей оценки безопасности любого автомобиля, когда-либо испытанного, и установила рекорд по наименьшей вероятности травмы пассажиров - от несчастных случаев на переднем, боковом, заднем сидении и в ДТП с переворотом авто.</div>
+      </div>
+      <div class="raiting">
+      <div class="raiting__title">Оценка защиты:</div>
+      <div class="raiting__box">
+        <div class="raiting__item rtitem1">
+       <div class="raiting__text rt1">СПЕРЕДИ</div>
+       <div class="raiting__star rtstar1">
+       <img class="img__star star1-1" src="img/star.svg" alt="">
+       <img class="img__star star1-2" src="img/star.svg" alt="">
+       <img class="img__star star1-3" src="img/star.svg" alt="">
+       <img class="img__star star1-4" src="img/star.svg" alt="">
+       <img class="img__star star1-5" src="img/star.svg" alt="">
+     </div>
+     </div>
+     <div class="raiting__item rtitem2">
+    <div class="raiting__text rt2">СБОКУ</div>
+    <div class="raiting__star rtstar2">
+      <img class="img__star star2-1" src="img/star.svg" alt="">
+      <img class="img__star star2-2" src="img/star.svg" alt="">
+      <img class="img__star star2-3" src="img/star.svg" alt="">
+      <img class="img__star star2-4" src="img/star.svg" alt="">
+      <img class="img__star star2-5" src="img/star.svg" alt="">
     </div>
-    <div class="raiting__box raiting__box-2">
-    <p class="raiting__text">СБОКУ</p>
-    <div class="raiting__star"></div>
   </div>
-  <div class="raiting__box raiting__box-3">
-  <p class="raiting__text">СБОКУ <span class="raiting__text-span">(стойка)</span></p>
-  <div class="raiting__star"></div>
+  <div class="raiting__item rtitem3">
+ <div class="raiting__text rt3">
+   СБОКУ<div class="raiting__span">(СТОЙКА)</div>
+ </div>
+ <div class="raiting__star rtstar3">
+   <img class="img__star star3-1" src="img/star.svg" alt="">
+   <img class="img__star star3-2" src="img/star.svg" alt="">
+   <img class="img__star star3-3" src="img/star.svg" alt="">
+   <img class="img__star star3-4" src="img/star.svg" alt="">
+   <img class="img__star star3-5" src="img/star.svg" alt="">
+ </div>
 </div>
-<div class="raiting__box raiting__box-4">
-<p class="raiting__text">ВОДИТЕЛЬ</p>
-<div class="raiting__star"></div>
+<div class="raiting__item rtitem4">
+<div class="raiting__text rt4">ВОДИТЕЛЬ</div>
+<div class="raiting__star rtstar4">
+  <img class="img__star star4-1" src="img/star.svg" alt="">
+  <img class="img__star star4-2" src="img/star.svg" alt="">
+  <img class="img__star star4-3" src="img/star.svg" alt="">
+  <img class="img__star star4-4" src="img/star.svg" alt="">
+  <img class="img__star star4-5" src="img/star.svg" alt="">
 </div>
-<div class="raiting__box raiting__box-5">
-<p class="raiting__text">ПАССАЖИР</p>
-<div class="raiting__star"></div>
 </div>
+<div class="raiting__item rtitem5">
+<div class="raiting__text rt5">ПАССАЖИР</div>
+<div class="raiting__star rtstar5">
+  <img class="img__star star5-1" src="img/star.svg" alt="">
+  <img class="img__star star5-2" src="img/star.svg" alt="">
+  <img class="img__star star5-3" src="img/star.svg" alt="">
+  <img class="img__star star5-4" src="img/star.svg" alt="">
+  <img class="img__star star5-5" src="img/star.svg" alt="">
+</div>
+</div>
+      </div>
+      </div>
+        <div class="columns">
+         <div class="container">
+           <div class="colums__row">
+            <div class="colums__column column2-1">
+              <div class="columns__item item2">
+                <div class="items__row">
+                  <img class="item__img img2-1" src="img/group.svg" alt="">
+                  <div class="item__body">
+                    <div class="item__title title2-1">
+                    5 <div class="item__span span2-1">звезд</div>
+                  </div>
+                    <div class="item__text text2-1">безопасности</div>
+                  </div>
+                </div>
+              </div>
+              </div>
+              </div>
+              </div>
+         </div>
+           </div>
+
+        <div class="content content-3">
+          <img class="content__img moreimg2" src="./img/more.svg" alt="wheel">
+          <p class="content__more more-3">УЗНАТЬ БОЛЬШЕ</p>
+          <a class="content__button button-3" href="#">ЗАКАЗАТЬ</a>
+        </div>
+</div>
+    </div>
+    <div class="page__group group2">
+    <div class="group2__img1"></div>
+    <div class="group2__img2"></div>
+    </div>
+    </div>
   </div>
-    <div class="redcontent__items reditems-2">
-      <div class="redcontent__item">
-      <img class="redcontent__item-img" src="./img/group.svg" alt="group">
-      <div class="redcontent__item-box reditem-box-4">
-        <p class="redcontent__item-title reditem-title-4">
-          5 <span class="redcontent__item-span reditem-span-4">ЗВЕЗД</span>
-        </p>
-        <p class="redcontent__item-text reditem-text-4">безопасности</p>
-</div>
-</div>
-</div>
-<div class="content content-3">
-  <img class="content__img" src="./img/more.svg" alt="more">
-  <p class="content__more more-3">УЗНАТЬ БОЛЬШЕ</p>
-  <a class="content__button button-3" href="#">ЗАКАЗАТЬ</a>
-</div>
-</div>
-</div>
+  </div>
+  </div>
 </section>
 </body>
 </html>
